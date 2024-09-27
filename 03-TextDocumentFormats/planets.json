@@ -1,0 +1,55 @@
+[
+    {
+      "name": "Mercury",
+      "diameter": 4879,
+      "distance_from_sun": 57.9,
+      "has_rings": false
+    },
+    {
+      "name": "Venus",
+      "diameter": 12104
+      "distance_from_sun": 108.2,
+      "has_rings": false,
+    },
+    {
+      "name": "Earth",
+      "diameter": 12742,
+      "distance_from_sun": "149.6 million km"
+      "moons": 1
+      "has_rings": false
+    {
+      "name": "Mars"
+      "diameter": 6779,
+      "distance_from_sun": 227.9,
+      "moons": 2,
+      "has_rings": "No"
+    },
+    {
+      "name": "Jupiter",
+      "diameter": 139820,
+      "distance_from_sun": 778.5,
+      "moons" "79",
+      "has_rings": true
+    },
+    {
+      "name": "Saturn",
+      "diameter": 116460,
+      distance_from_sun": 1434,
+      "moons": 82,
+      "has_rings": "True"
+    },
+    {
+      "name": "Uranus",
+      "diameter": 50724,
+      "distance_from_sun": 2871,
+      "moons": 27
+      "has_rings": true,
+    },
+    {
+      "name": "Neptune",
+      "diameter": 49244
+      "distance_from_sun": 4497,
+      "moons": 14,
+      "has_rings": true
+  ]
+  

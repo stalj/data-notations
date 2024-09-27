@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links in HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        /* Default link styling */
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        /* Link when hovered over */
+        a:hover {
+            color: #1abc9c;
+            text-decoration: underline;
+        }
+
+        /* Visited link */
+        a:visited {
+            color: #9b59b6;
+        }
+
+        /* Active link */
+        a:active {
+            color: #e74c3c;
+        }
+
+        /* Special styling for external links */
+        a.external {
+            background-color: #f39c12;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        a.external:hover {
+            background-color: #e67e22;
+        }
+
+        /* Styling for button-like links */
+        a.button-link {
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+            font-size: 1rem;
+        }
+
+        a.button-link:hover {
+            background-color: #27ae60;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Styling Links in HTML</h1>
+
+    <p>In this document, we demonstrate various ways to style links using CSS. Links are an essential part of the web,
+        and it’s important to make them look good and provide a better user experience. Below are some examples:</p>
+
+    <h2>Basic Link Styles</h2>
+    <p>This is a <a href="#">regular link</a> that changes color on hover. When you click it, it will show an active
+        state, and if visited, it will change to a different color.</p>
+
+    <h2>External Links with Styling</h2>
+    <p>Here’s an example of a <a href="https://www.example.com" class="external" target="_blank">styled external
+            link</a>. External links can be made more noticeable by using different styles like background colors and
+        padding.</p>
+
+    <h2>Button-like Links</h2>
+    <p>Sometimes, we want links to look like buttons. This can be done easily with some additional styling. Here’s an
+        example of a <a href="#" class="button-link">button-like link</a> that looks interactive and provides a better
+        call to action.</p>
+
+    <footer>
+        <p>&copy; 2024 Link Styling Demo</p>
+    </footer>
+
+</body>
+
+</html>

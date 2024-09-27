@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smartphones>
+    <smartphone brand="Samsung" model="Galaxy S23" releaseYear="2023">
+        <specs>
+            <screenSize unit="inch">6.2</screenSize>
+            <batteryCapacity unit="mAh">3700</batteryCapacity>
+            <storage unit="GB">256</storage>
+            <camera unit="MP">50</camera>
+        </specs>
+        <price currency="USD">799</price>
+    </smartphone>
+</smartphones>

@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Nike",
+        "founded": 1964,
+        "headquarters": "Beaverton, Oregon, USA",
+        "employees": 76000,
+        "products": [
+            "Sportswear",
+            "Footwear",
+            "Accessories"
+        ]
+    },
+    {
+        "name": "Adidas",
+        "founded": 1949,
+        "headquarters": "Herzogenaurach, Germany",
+        "employees": 57000,
+        "products": [
+            "Sportswear",
+            "Footwear",
+            "Accessories"
+        ]
+    },
+    {
+        "name": "Zara",
+        "founded": 1974,
+        "headquarters": "Arteixo, Spain",
+        "employees": 174000,
+        "products": [
+            "Fashion Apparel",
+            "Footwear",
+            "Accessories"
+        ]
+    },
+    {
+        "name": "H&M",
+        "founded": 1947,
+        "headquarters": "Stockholm, Sweden",
+        "employees": 126000,
+        "products": [
+            "Fashion Apparel",
+            "Footwear",
+            "Accessories"
+        ]
+    },
+    {
+        "name": "Uniqlo",
+        "founded": 1949,
+        "headquarters": "Yamaguchi, Japan",
+        "employees": 56000,
+        "products": [
+            "Casual Wear",
+            "Outerwear",
+            "Accessories"
+        ]
+    }
+]

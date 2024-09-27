@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Travel Booking Form</title>
+    <style>
+        /* General form container styling */
+     
+        /***** REMOVE THIS COMMENT LINE
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group.inline {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-group.inline label {
+            width: 48%;
+        }
+
+        REMOVE THIS COMMENT LINE  *****/
+        
+
+        /* Responsive design */
+        @media (max-width: 600px) {
+            .form-group.inline label {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Space Travel Booking Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="destination">Choose Your Destination:</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Select a Planet</option>
+                    <option value="moon">The Moon</option>
+                    <option value="mars">Mars</option>
+                    <option value="jupiter">Jupiter</option>
+                    <option value="saturn">Saturn</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="travel-date">Preferred Travel Date:</label>
+                <input type="date" id="travel-date" name="travel-date" required>
+            </div>
+            <div class="form-group">
+                <label for="comments">Special Requests or Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <div class="form-group inline">
+                <label>
+                    <input type="radio" name="class" value="economy" required>
+                    Economy Class
+                </label>
+                <label>
+                    <input type="radio" name="class" value="first" required>
+                    First Class
+                </label>
+            </div>
+            <input type="submit" value="Book Your Journey">
+        </form>
+    </div>
+
+</body>
+
+</html>

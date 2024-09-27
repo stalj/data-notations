@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creatures>
+    <creature name="Phoenix" habitat="Mountains" lifespan="immortal>
+        <description>A mythical bird that regenerates or is reborn from its ashes.</description>
+        <powers>
+            <power>Rebirth</power>
+            <power>Fire control<power>
+        </powers>
+    </creature>
+    <creature name="Dragon" habitat="Caves" lifespan="unknown">
+        <description>A powerful creature that can breathe fire and fly
+        <powers>
+            <power>Flight</power>
+            <power>Fire breath<power>
+        </powers>
+    <creature name="Unicorn" habitat="Forests" lifespan="centuries">
+        <description>A magical horse with a single, spiraling horn.</description>
+        <powers>
+            <power>Healing</power>
+            <power>Purity detection
+        </Powers>
+    </creature>
+    <creature name="Griffin" habitat="Mountains" lifespan="hundreds of years">
+        <description> A creature with the body of a lion and the head and wings of an eagle</description>
+        <powers>
+            <power>Flight</power>
+            <power>Enhanced strength</power
+        </power>
+    </creature
+</creatures>
