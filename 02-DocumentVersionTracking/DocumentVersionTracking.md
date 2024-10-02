@@ -162,6 +162,8 @@ stalj@uek.krakow.pl
     git checkout master
     ```
 
+    Note: This command could vary in dependence of your default branch naming in git configuration (for example it could be `git checkout main`).
+
 ## 4. Transferr Changes to Remote Repository from Command Line
 
 1. Until now, all changes were recorded in a local repository on your computer. However, it is possible to transfer data to a remote repository, which is stored usually on the Internet and is accessible to multiple users over the network. The main reasons for using a remote repository is to:
