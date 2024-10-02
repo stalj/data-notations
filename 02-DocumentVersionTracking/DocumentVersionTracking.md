@@ -248,7 +248,7 @@ stalj@uek.krakow.pl
 
 ## 8. Track Changes with VSCode
 
-1. In VSCode, you can register all changes in your project. You do not need to use git commands like git add or git commit. To learn how to do this, open the ThirdProject repository in VSCode. 
+1. In VSCode, you can register all changes in your project. You do not need to use git commands like git add or git commit. To learn how to do this, open the ThirdProject folder in VSCode. 
 
 1. Create a third file called c.xyz. Enter any text into it.
 
