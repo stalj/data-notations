@@ -416,4 +416,21 @@ stalj@uek.krakow.pl
 
 1. Do the same as in the task "Collaborate on the Project with VSCode". Use only the command line. Create a Car folder and put images of your favourite cars in it. Instead of modifying the original content of the project, each student creates a branch in which they place 3 images of cars of their choice. Then, they merge the changes with the original content of the project (master branch).
 
+Hint: On Windows you can use `wget` utility. For example:
+```
+wget -O filename.jpg https://imagesrepo.com/image.jpg
+```
+Hint: On *nix systems you may use `wget` or `curl` utility. 
+
+Pay attention: the `git branch` command by default shows only local branches. If you need to see all remote branches - run the command with `-r` parameter: 
+```
+git branch -r
+``` 
+
+Pay attention: by default you can merge only local branches. If you need to merge a local branch with a remote branch, which was not loaded, you need to pass the explicit route to the branch, by providing the full path with the remote repository name, which you defined during the `git remote add` command. For example:
+```
+git merge origin/awesome-epic-branch
+```
+
 1. Finally, check that the local repositories of all students in the group as well as the remote repository contain all 9 files.
+
