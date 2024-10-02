@@ -164,7 +164,7 @@ stalj@uek.krakow.pl
 
     Note: This command could vary in dependence of your default branch naming in git configuration (for example it could be `git checkout main`).
 
-## 4. Transferr Changes to Remote Repository from Command Line
+## 4. Transfer Changes to Remote Repository from Command Line
 
 1. Until now, all changes were recorded in a local repository on your computer. However, it is possible to transfer data to a remote repository, which is stored usually on the Internet and is accessible to multiple users over the network. The main reasons for using a remote repository is to:
 
@@ -344,7 +344,7 @@ stalj@uek.krakow.pl
         git branch
         ```
 
-    1. Imagine that yu are going to create 3 more files in your project. Instead of modifying the original project content, create a copy of it, i.e. create a new branch. In the new project branch, you can make and register any changes you want. If you want your changes to be merged with the original project content, simply merge the new branch into the master branch.
+    1. Imagine that you are going to create 3 more files in your project. Instead of modifying the original project content, create a copy of it, i.e. create a new branch. In the new project branch, you can make and register any changes you want. If you want your changes to be merged with the original project content, simply merge the new branch into the master branch.
         
         Create a new branch named **new3files**:
 
