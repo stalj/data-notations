@@ -174,6 +174,8 @@ stalj@uek.krakow.pl
 
     One of the most commonly used websites for remote repository storage is Microsoft GitHub. To store data from your local FirstProject repository in a remote GitHub repository (<https://github.com/>), in a web browse log in and create a new, completely empty repository called "FirstProject" in it.
 
+    ![](screenshots/new_repository_creation_on_github.jpg)
+
 1. To push the content of your local repository to GitHub, execute the commands below. Notice that this set of commands is also displayed in your newly created remote repository on GitHub, as a hint on how to copy the contents of the local repository to the remote repository. Remember that before copying your data, GitHub will ask you to log in.
 
     ```
@@ -217,6 +219,10 @@ stalj@uek.krakow.pl
         ```
         git clone https://github.com/YOUR-ACCOUNT-NAME/SecondProject.git
         ```
+    
+        Hint: You may also get a permalink to your repository from a GitHub repository's page.  
+    
+        ![](screenshots/place_where_you_can_copy_your_project_HTTPS.jpg)
 
     A folder SecondProject has been created in the MyProjects folder on the Windows desktop. This is your local repository that you can now use to work. From this local repository you can use short commands: git push and git pull to transfer changes to or from GitHub.
 
@@ -245,6 +251,10 @@ stalj@uek.krakow.pl
 1. Using VSCode, go to the Command Palette (use menu or press Ctrl+Shift+P). Type Git to see a list of available Git commands. Select "Git: Initialize Repository" and specify the FourthProject folder where the repository will be created.
 
 1. Display the the content of created repository in VSCode.
+
+Hint: You can also do it with the help of "Open Folder..." button at the welcome page.
+
+![](screenshots/Display_the_content_of_created_repository_in_VSCode.jpg)
 
 ## 8. Track Changes with VSCode
 
@@ -297,6 +307,10 @@ stalj@uek.krakow.pl
 1. On GitHub, create (through the group leader) a new repository called People. Add a README.md file to the project, and include the names of all students in the group.
 
 1. Add other students to the project as collaborators.
+
+Hint: You can do it in settings tab.
+
+![](screenshots/Adding_other_students_to_the_project_as_collaborators.jpg)
 
 1. Create a clone of the project on your computer (all students in the group). Save the cloned repository to your MyProjects folder.
 
