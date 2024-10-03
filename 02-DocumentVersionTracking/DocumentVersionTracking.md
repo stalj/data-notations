@@ -162,7 +162,9 @@ stalj@uek.krakow.pl
     git checkout master
     ```
 
-## 4. Transferr Changes to Remote Repository from Command Line
+    Note: This command could vary in dependence of your default branch naming in git configuration (for example it could be `git checkout main`).
+
+## 4. Transfer Changes to Remote Repository from Command Line
 
 1. Until now, all changes were recorded in a local repository on your computer. However, it is possible to transfer data to a remote repository, which is stored usually on the Internet and is accessible to multiple users over the network. The main reasons for using a remote repository is to:
 
@@ -246,7 +248,7 @@ stalj@uek.krakow.pl
 
 ## 8. Track Changes with VSCode
 
-1. In VSCode, you can register all changes in your project. You do not need to use git commands like git add or git commit. To learn how to do this, open the ThirdProject repository in VSCode. 
+1. In VSCode, you can register all changes in your project. You do not need to use git commands like git add or git commit. To learn how to do this, open the ThirdProject folder in VSCode. 
 
 1. Create a third file called c.xyz. Enter any text into it.
 
@@ -342,7 +344,7 @@ stalj@uek.krakow.pl
         git branch
         ```
 
-    1. Imagine that yu are going to create 3 more files in your project. Instead of modifying the original project content, create a copy of it, i.e. create a new branch. In the new project branch, you can make and register any changes you want. If you want your changes to be merged with the original project content, simply merge the new branch into the master branch.
+    1. Imagine that you are going to create 3 more files in your project. Instead of modifying the original project content, create a copy of it, i.e. create a new branch. In the new project branch, you can make and register any changes you want. If you want your changes to be merged with the original project content, simply merge the new branch into the master branch.
         
         Create a new branch named **new3files**:
 
@@ -414,4 +416,21 @@ stalj@uek.krakow.pl
 
 1. Do the same as in the task "Collaborate on the Project with VSCode". Use only the command line. Create a Car folder and put images of your favourite cars in it. Instead of modifying the original content of the project, each student creates a branch in which they place 3 images of cars of their choice. Then, they merge the changes with the original content of the project (master branch).
 
+Hint: On Windows you can use `wget` utility to download files from the Internet. For example:
+```
+wget -O filename.jpg https://imagesrepo.com/image.jpg
+```
+Hint: On *nix systems you may use `wget` or `curl` utility. 
+
+Pay attention: the `git branch` command by default shows only local branches. If you need to see all remote branches - run the command with `-r` parameter: 
+```
+git branch -r
+``` 
+
+Pay attention: by default you can merge only local branches. If you need to merge a local branch with a remote branch, which was not loaded, you need to pass the explicit route to the branch, by providing the full path with the remote repository name, which you defined during the `git remote add` command. For example:
+```
+git merge origin/awesome-epic-branch
+```
+
 1. Finally, check that the local repositories of all students in the group as well as the remote repository contain all 9 files.
+
