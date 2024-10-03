@@ -416,7 +416,7 @@ stalj@uek.krakow.pl
 
 1. Do the same as in the task "Collaborate on the Project with VSCode". Use only the command line. Create a Car folder and put images of your favourite cars in it. Instead of modifying the original content of the project, each student creates a branch in which they place 3 images of cars of their choice. Then, they merge the changes with the original content of the project (master branch).
 
-Hint: On Windows you can use `wget` utility. For example:
+Hint: On Windows you can use `wget` utility to download files from the Internet. For example:
 ```
 wget -O filename.jpg https://imagesrepo.com/image.jpg
 ```
