@@ -390,5 +390,19 @@ stalj@uek.krakow.pl
 
 1. Share the website you created using GitHub Pages.
 
+Hint: 
+
+*To share a website HTML page on GitHub using GitHub Pages:
+
+*Create a Repository: Create a new GitHub repository. If it's a personal website, name it in the format username.github.io; otherwise, use any name for project websites.
+
+*Upload Files: Add your website files (e.g., index.html, CSS, JavaScript) to the repository using Git or by dragging and dropping the files directly into GitHub.
+
+*Configure GitHub Pages: Go to the repository’s settings, find the "Pages" section, select the branch (main or master), and save the settings.
+
+*Publish and Share: Your website will be available at username.github.io for personal sites or username.github.io/repository-name for projects. Share this link to access your website.
+
+More information on how to do that at <https://youtu.be/OltY8JIaP-4?si=lXUIeiN-d6JO6jmJ> .
+
 1. Display the web page in your web browser.
 
