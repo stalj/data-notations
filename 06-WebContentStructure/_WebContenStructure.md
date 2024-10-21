@@ -379,16 +379,37 @@ stalj@uek.krakow.pl
 
 ## 10. Design and Share a Website
 
-1. Design a website that provides information about healthy lifestyle. To do the website, create a new project and track changes to the project using git. The website should include:
+1. Design a website that provides information about healthy lifestyle. To do the website, create a new git repository named 'healthy-lifestyle' in which create index.html for your website. The website should include:
 
     * Headings that define health categories, such as nutrition, exercise, or sleep.
     * Paragraphs containing short descriptions about healthy habits.
+    * Three images illustrating healthy habits (download from the Internet and save two of these images to your repository, then place them on the website you are creating; place the third image on the website you are creating directly from the Internet)
     * Links to articles about health, diet, and exercise.
     * Text in the form of a list with advice on diet and exercise.
     * Table with training plan or daily calorie intake.
     * Form to sign up for the health tips newsletter.
 
+1. Upload your local 'healthy-lifestyle' repository content to a remote repository on GitHub.
+
 1. Share the website you created using GitHub Pages.
+
+    GitHub Pages is a free service offered by GitHub that allows users to create and host websites directly from their GitHub repositories. It's especially useful for hosting project websites, blogs, technical documentation, or even personal websites.
+
+    To configure GitHub Pages, go to the repository’s settings, find the "Pages" section, select the branch (main or master), and save the settings.
+
+    > Hint: more information on how to create personal or project website you can find at:
+    
+    * <https://youtu.be/OltY8JIaP-4?si=lXUIeiN-d6JO6jmJ>
+
+    * <https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site>
 
 1. Display the web page in your web browser.
 
+    Your website will be available at:
+    
+    * **username.github.io/repository-name** (for a project website)
+    * **username.github.io** (for your personal website)
+
+    Share the link among you colleagues to access your website.
+
+    > Note: It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub.

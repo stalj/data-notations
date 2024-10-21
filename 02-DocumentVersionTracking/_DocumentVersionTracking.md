@@ -21,6 +21,9 @@ stalj@uek.krakow.pl
 
     <https://youtu.be/r8jQ9hVA2qs?feature=shared>
     
+1. Main Git Concepts:
+
+    ![Git Concepts](git.png)
 
 1. To track changes to files, first you must provide your name and email. This information will be used to mark who made changes to the files.
 
