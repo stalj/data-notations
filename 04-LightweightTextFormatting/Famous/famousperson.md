@@ -1,0 +1,4 @@
+# Elon Musk
+![Elon Musk](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Elon_Musk_Royal_Society.jpg/512px-Elon_Musk_Royal_Society.jpg)
+
+**Elon Reeve Musk** (wym. /ˈi:lɒn ˈmʌsk/; ur. 28 czerwca 1971 w Pretorii[4]) – południowoafrykański przedsiębiorca, założyciel lub współzałożyciel przedsiębiorstw [PayPal, SpaceX, Tesla, Neuralink i The Boring Company]()[5]. Pochodzi z RPA, mieszka i pracuje w Stanach Zjednoczonych (posiada obywatelstwo południowoafrykańskie, kanadyjskie oraz amerykańskie). Dyrektor generalny i techniczny w SpaceX, dyrektor generalny i główny architekt w Tesla Inc. W styczniu 2021 został uznany najbogatszym człowiekiem świata przez magazyn „Forbes” i agencję Bloomberg[6][7]. Od 28 października 2022 właściciel serwisu X (kiedyś "Twitter").
