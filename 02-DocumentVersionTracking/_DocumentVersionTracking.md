@@ -288,7 +288,7 @@ Hint: You can also do it with the help of "Open Folder..." button at the welcome
 1. Display the contents of the remote repository on GitHub. Make sure it contains 3 images.
 
 
-## 11. Track and Register New Project Changes form Command Line
+## 11. Track and Register New Project Changes from Command Line
 
 1. In the MyProjects folder, create a Cities folder.
 
